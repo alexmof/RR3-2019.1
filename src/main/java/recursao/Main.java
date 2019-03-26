@@ -12,10 +12,23 @@ public class Main {
 		System.out.println(mr.calcularSomaArray(array));
 		
 		//Fatorial
-		System.out.println(mr.calcularFatorial(5));*/
+		System.out.println(mr.calcularFatorial(5));
 		
 		//Fibonacci
-		mr.calcularFibonacci(3);
+		System.out.println(mr.calcularFibonacci(5));
+		
+		//Conta não nulos
+		Object[] obj = {7, 2};
+		System.out.println(mr.countNotNull(obj));
+		
+		//Potencia2
+		System.out.println(mr.potenciaDe2(4));
+		
+		//PA
+		System.out.println(mr.progressaoAritmetica(1, 5, 4));*/
+		
+		//PG
+		System.out.println(mr.progressaoGeometrica(1, 2, 4));
 	}
 
 }
